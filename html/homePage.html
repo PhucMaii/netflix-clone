@@ -1,0 +1,169 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Bebas+Neue&family=Outfit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../js/testSlider.js" defer></script>
+    
+
+</head>
+<body>
+    <header>
+ <nav>
+        <img class="logo" src="https://cdn.vox-cdn.com/thumbor/SEEvZdiXcs0CS-YbPj2gm6AJ8qc=/0x0:3151x2048/1400x1400/filters:focal(1575x1024:1576x1025)/cdn.vox-cdn.com/uploads/chorus_asset/file/15844974/netflixlogo.0.0.1466448626.png" alt="">
+        <ul class="navbar">
+            <li>Home</li>
+            <li>Watch list</li>
+            <li>Popular</li>
+            <li>Newest</li>
+            <li>Drama</li>
+            <li>Series Film</li>
+        </ul>
+
+        <div class="search-bar">
+            <label for="search">Search</label>
+            <input type="text" name="search" id="search-input">
+        </div>
+
+        <div class="profile">
+            <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/344756849_780270453653257_5098434844172212863_n.jpg?_nc_cat=108&cb=99be929b-3346023f&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=-Z0jZFWOMSMAX8JHuiN&_nc_ht=scontent-sea1-1.xx&oh=00_AfCwiXoh_oFQ9TwHGLVP_CAu1f-nV4_7LfZDC0QwBUZoQg&oe=647D092B" alt="">
+        </div>
+    </nav>
+    <div class="carousel" data-carousel>
+        <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+        <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+
+        <ul class="slider-container" data-slides>
+            <li class="slide" data-active>
+                <img src="https://www.bt.com/content/dam/bt/portal/images/articles/tv/tv-film-netflix-grey-man-new-keyart.jpg/jcr:content/renditions/landscape-tablet.935.526.jpg" alt="">
+                <button class="slide-button play-button"><i class="fa fa-play" style="font-size:24px"></i> Play</button>
+                <button class="slide-button info-button">Info <i class="fa fa-info-circle" style="font-size:24px"></i></button>
+            </li>
+            <li class="slide">
+                <img src="https://m.media-amazon.com/images/I/71o54A-bYlL._AC_UF894,1000_QL80_.jpg" alt="">
+                <button class="slide-button play-button"><i class="fa fa-play" style="font-size:24px"></i> Play</button>
+                <button class="slide-button info-button">Info <i class="fa fa-info-circle" style="font-size:24px"></i></button>
+            </li>
+            <li class="slide">
+                <img src="https://occ-0-2164-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABVDdKjzrLi9DErgrVtSjCJIIAnj5vlTilGmIJNo3qy80pO2YMCMAOp75GGFXjkTE0eGJoa2ZaWFgF2Ue7VDAILOPJQtOsfgLzdgu.jpg?r=397" alt="">
+                <button class="slide-button play-button"><i class="fa fa-play" style="font-size:24px"></i> Play</button>
+                <button class="slide-button info-button">Info <i class="fa fa-info-circle" style="font-size:24px"></i></button>
+            </li>
+        </ul>
+    </div>
+   
+    </header>
+   
+    <div class="container">
+        <div class="continue-watching">
+            <h2>Continue Watching</h2>
+            <div class="movie-card-container">
+                <button class="carousel-button slide-controller prev " onclick="prev()">&#8656;</button>
+                <button class="carousel-button slide-controller next" onclick="next()">&#8658;</button>
+                <div class="movie-card">
+                    <img src="https://cdn.justjared.com/wp-content/uploads/2020/08/enola-poster/millie-bobby-brown-enola-holmes-poster-06.jpg" alt="">
+                    <div class="movie-info">
+                        <div class="btn-container">
+                            <button class="btn"></button>
+                            <button class="btn"></button>
+                            <button class="btn"></button>
+                            <button class="btn"></button>
+                        </div>
+                        <div class="episode-container">
+                            <p>16 episodes</p>
+                            <p>HD</p>
+                        </div>
+                        <ul class="genre-container">
+                            <li>Drama</li>
+                            <li>Action</li>
+                            <li>Interesting</li>
+                        </ul>
+    
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="https://cdn.justjared.com/wp-content/uploads/2020/08/enola-poster/millie-bobby-brown-enola-holmes-poster-06.jpg" alt="">
+    
+                </div>     
+                <div class="movie-card">
+                    <img src="https://cdn.justjared.com/wp-content/uploads/2020/08/enola-poster/millie-bobby-brown-enola-holmes-poster-06.jpg" alt="">
+                </div>
+                <div class="movie-card">
+                    <img src="https://cdn.justjared.com/wp-content/uploads/2020/08/enola-poster/millie-bobby-brown-enola-holmes-poster-06.jpg" alt="">
+    
+                </div>
+                <div class="movie-card">
+                    <img src="https://cdn.justjared.com/wp-content/uploads/2020/08/enola-poster/millie-bobby-brown-enola-holmes-poster-06.jpg" alt="">
+    
+                </div>   
+                <div class="movie-card">
+                    <img src="https://cdn.justjared.com/wp-content/uploads/2020/08/enola-poster/millie-bobby-brown-enola-holmes-poster-06.jpg" alt="">
+    
+                </div>   
+                <div class="movie-card">
+                    <img src="https://cdn.justjared.com/wp-content/uploads/2020/08/enola-poster/millie-bobby-brown-enola-holmes-poster-06.jpg" alt="">
+    
+                </div>   
+                <div class="movie-card">
+                    <img src="https://cdn.justjared.com/wp-content/uploads/2020/08/enola-poster/millie-bobby-brown-enola-holmes-poster-06.jpg" alt="">
+    
+                </div> 
+                <div class="movie-card">
+                    <img src="https://cdn.justjared.com/wp-content/uploads/2020/08/enola-poster/millie-bobby-brown-enola-holmes-poster-06.jpg" alt="">
+    
+                </div>   
+                <div class="movie-card">
+                    <img src="https://www.bt.com/content/dam/bt/portal/images/articles/tv/tv-film-netflix-grey-man-new-keyart.jpg/jcr:content/renditions/landscape-tablet.935.526.jpg" alt="">
+    
+                </div>        
+            </div>
+   
+        </div>
+
+
+        <div class="popular-movie">
+            <h2>Popular</h2>
+            <div class="movie-card">
+                <img src="https://cdn.justjared.com/wp-content/uploads/2020/08/enola-poster/millie-bobby-brown-enola-holmes-poster-06.jpg" alt="">
+            </div>
+            <div class="movie-card">
+                <img src="https://cdn.justjared.com/wp-content/uploads/2020/08/enola-poster/millie-bobby-brown-enola-holmes-poster-06.jpg" alt="">
+
+            </div>     
+            <div class="movie-card">
+                <img src="https://cdn.justjared.com/wp-content/uploads/2020/08/enola-poster/millie-bobby-brown-enola-holmes-poster-06.jpg" alt="">
+            </div>
+            <div class="movie-card">
+                <img src="https://cdn.justjared.com/wp-content/uploads/2020/08/enola-poster/millie-bobby-brown-enola-holmes-poster-06.jpg" alt="">
+
+            </div>     
+        </div>
+        
+        <div class="trending-movie">
+            <h2>Trending</h2>
+            <div class="movie-card">
+                <img src="https://cdn.justjared.com/wp-content/uploads/2020/08/enola-poster/millie-bobby-brown-enola-holmes-poster-06.jpg" alt="">
+            </div>
+            <div class="movie-card">
+                <img src="https://cdn.justjared.com/wp-content/uploads/2020/08/enola-poster/millie-bobby-brown-enola-holmes-poster-06.jpg" alt="">
+
+            </div>     
+            <div class="movie-card">
+                <img src="https://cdn.justjared.com/wp-content/uploads/2020/08/enola-poster/millie-bobby-brown-enola-holmes-poster-06.jpg" alt="">
+            </div>
+            <div class="movie-card">
+                <img src="https://cdn.justjared.com/wp-content/uploads/2020/08/enola-poster/millie-bobby-brown-enola-holmes-poster-06.jpg" alt="">
+
+            </div>     
+        </div>
+    </div>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
